@@ -1,1 +1,1 @@
-# Blog-post
+It,s a blog post page 
