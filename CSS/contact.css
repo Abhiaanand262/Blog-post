@@ -1,0 +1,28 @@
+.contact-content {
+    /*background-color: rgb(250, 246, 246); */ 
+    display: block;
+    height: 100vh;
+    margin-top: 30px;
+    padding: 9px;
+    position: relative;
+  }
+  
+  .content-content::after {
+    content: "";
+    background-image: url(../img/background.jpg);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.35;
+    border-radius: 15px;
+    z-index: -1;
+  }
+
+  .form-box input, textarea{
+    width: 50vw;
+    padding: 10px 6px;
+    margin: 7px;
+  }
+
+  

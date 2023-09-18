@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  margin-top: 20px;
+  font-family: var(--font1);
+  /* height: 74px; */
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+.nav-left span {
+  font-size: 30px;
+}
+
+.nav-left ul {
+  display: flex;
+  margin: 0 77px;
+  font-size: 19px;
+  padding-bottom: 25px;
+}
+
+.nav-left ul li {
+  list-style: none;
+  margin: 0 14px;
+  font-family: var(--font2);
+}
+
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-left ul li a:hover {
+  color: var(--main-bg-color);
+  font-weight: bolder;
+}
+
+.content {
+  /*background-color: rgb(250, 246, 246); */ 
+  display: flex;
+  height: 100%;
+  margin-top: 30px;
+  padding: 9px;
+  position: relative;
+}
+
+.content::after {
+  content: "";
+  background-image: url(../img/background.jpg);
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  opacity: 0.35;
+  border-radius: 15px;
+}
+
+.content-left {
+  font-family: var(--font1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+
+.content-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-right img {
+  height: 170px;
+  border: 2px solid black;
+  border-radius: 350px;
+}
+
+.home-articles {
+  background-color: rgb(238, 229, 229, 0.5);
+  padding-top: 12px;  
+  margin-top: 20px;  
+  position: relative;
+}
+.year-box{
+/* background-color: red; */
+  position: absolute;
+  right:0px;
+  top: 53px;
+  width: 199px;
+  height: 170px;
+  font-size: 18px;
+}
+.year-box div{
+  margin: 12px 0;
+}
+
+.home-article {
+  display: flex;
+  padding: 3px;
+  margin: 14px;
+}
+
+.home-article img {
+  width: 230px;
+}
+
+.home-article-content {
+  align-self: center;
+  padding: 0 25px;
+}
+.home-article-content a{
+    text-decoration: none;
+    color: black
+}
+
+.footer {
+  height: 40px;
+  background-color: var(--main-bg-color);
+  display: flex;
+  flex-direction: column; /* it will make all line in coloum wise */
+  align-items: center;
+  justify-content: center;
+  color: rgb(253, 249, 249);
+}
+
+.footer a {
+  color: rgb(252, 249, 249);
+}
